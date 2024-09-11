@@ -27,6 +27,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ;
+}
+.btn:hover{
+    background: #519c17;
 }
 body {
     font-family: "Roboto", sans-serif;
