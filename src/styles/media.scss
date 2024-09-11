@@ -1,0 +1,162 @@
+@media(max-width:998px){
+    .container{
+        padding: 0 2rem;
+    }
+    .protection { 
+        margin-bottom: 32px;
+        padding-top: 5.375rem;
+        &__title{
+            font-size: 3rem;
+             margin-bottom: 8px;
+        }
+        &__text{
+            font-size: 1.5rem;
+        }
+        &__inner {
+            gap: 64px;
+        }
+        &__img{
+            width: 100%;
+        }
+     }
+    .promotion {
+        &__container{
+            padding: 80px 64px;
+            margin: 0 auto;
+        }
+        &__inner {
+            flex-direction: column;
+            gap: 80px;
+        }
+    }
+    .promotion-info{
+         &__box {
+            min-width: 100%;
+        }
+    }
+    .promotion-card{
+        margin: 0 auto;
+    }
+    .types {
+         margin-top: 43px;
+        margin-bottom: 64px;
+        &__box{
+          padding: 32px;
+        }
+        &__title{
+           font-size: 1.5rem;
+        }
+        &__item {
+           font-size: 1rem;
+        }
+    &__box{
+        min-height: 656px;
+    }
+    &__inner{
+        padding-bottom: 0;
+    }
+    &__img{
+        width: 100%;
+        height: auto;
+    }
+}
+}
+@media(max-width:767px){
+    .types{
+        &__inner {
+            flex-direction: column;
+        }
+        &__img{
+            width: 220px;
+            height: 220px;
+        }
+        &__box{
+            min-height: 330px;
+        }
+    }
+}
+
+@media(max-width:481px){
+    .container {
+        padding: 0px 1rem;
+    }
+    .protection {
+        margin-bottom: 32px;
+        padding-top: 3rem;
+    &__title{
+        font-size: 2rem;
+    }
+    &__inner{
+        gap: 32px;
+    }
+    }
+    .promotion {
+    &__container{
+        padding: 60px 24px 45px;
+    }
+    &__inner {
+        gap: 60px;
+    }
+    }
+
+    .promotion-info{
+    &__title {
+        font-size: 1.5rem;
+    }
+    &__text{
+        font-size: 1rem;
+    }
+    }
+    .types {
+    margin-top: 32px;
+    margin-bottom: 48px;
+    
+    &__box{
+        min-height: 330px;
+    }
+    
+    }
+    .footer {
+    padding: 48px 0px;
+    }
+}
+@media(max-width:350px){
+    .protection {
+        padding-top: 40px;
+        &__title{
+            font-size: 1.25rem;
+        }
+        &__logo{
+            width: 170px;
+        }
+        &__text{
+            font-size: 1rem;
+        }
+    }
+    .promotion{
+        &.container{
+            padding: 0;
+        }
+        &__container{
+            padding: 40px 24px;
+            border-radius:0 ;
+        }
+        &__inner{
+            gap: 40px;
+        }
+    }
+    .promotion-card{
+        &__title{
+            font-size: 1.25rem;
+        }
+    }
+    .types{
+        &__img{
+            width: 120px;
+            height: 120px;
+        }
+        &__box{
+            min-height: 210px;
+        }
+    }
+}
