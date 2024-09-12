@@ -6,6 +6,7 @@ $white:#fff;
 $grey:#666;
 html{
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -99,6 +100,7 @@ body {
     &__inner {
         display: flex;
         justify-content: center;
+        align-items: center;
         gap: 64px;
         margin: 0 auto;
     }
